@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-nav
+{
+	display: flex;
+	background: #28406C;
+	position: relative;
+	height: 35px;
+}
+
+.wrapper
+{
+	display: flex;
+	align-items: center;
+	float: left;
+	padding: 9px;
+	margin-left: 210px;
+	position: absolute;
+}
+
+.wrapper2 {
+    position: absolute;
+    display: flex;
+    right: 253px;
+    top: 9px;
+}
+
+.wrapper .location
+{
+	align-items: center;
+	justify-content: center;
+	float: left;
+	
+}
+
+.sIconBox {
+    position: relative;
+}
+
+.sIconBox ul {
+    position: absolute;
+    display: flex;
+    left: 20px;
+    list-style: none;
+}
+
+
+.location b {
+    color: white;
+    margin-right: 7px;
+    font-family: arial;
+    color: white;
+}
+.location span {
+    color: white;
+    font-family: arial;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-left: -6px;
+}
+
+.location b i {
+    font-size: 17px;
+    position: absolute;
+    left: -12px;
+    top: 9px;
+    color: #9ED04B;
+}
+
+.email {
+    margin-left: 80px;
+    position: relative;
+}
+
+.email i {color: #9ED04B;position: absolute;left: -22px;}
+
+.email b {
+    position: relative;
+}
+
+.email b {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.email i {
+    color: #9ED04B;
+    position: absolute;
+    left: -19px;
+    top: 1px;
+}
+.email span {
+    position: absolute;
+    left: 50px;
+    color: white;
+    font-size: 11px;
+    top: 3px;
+    letter-spacing: 1px;
+    font-family: arial;
+}
+
+.lbox b {
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-left: -110px;
+    position: relative;
+}
+
+.sIconBox ul li {
+    position: relative;
+    background: #9ED04B;
+    border-radius: 100%;
+    padding: 6px;
+    margin-left: 6px;
+    font-size: 10px;
+    top: -3px;
+}
+
+.lbox b i {
+    font-size: 10px;
+    transform: rotate(89deg);
+    margin-left: 3px;
+}
+
+.ldata {
+    display: flex;
+    height: 100px;
+    width: 213px;
+    margin-left: 180px;
+}
+
+.ldata img {
+    height: 100%;
+    width: 107px;
+}
+
+.textData {
+    margin-top: 23px;
+    display: inline-block;
+    margin-left: -21px;
+}
+
+.textData h3 {
+    font-size: 14px;
+}
+
+.textData h2 {
+    font-family: arial black;
+    color: #28406C;
+}
+
+
+.textData h3 {
+    font-family: arial black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contactData {
+    display: flex;
+    float: right;
+    margin-top: -77px;
+    margin-right: 208px;
+}
+
+.fdata {
+    position: absolute;
+    margin-left: -270px;
+}
+
+.fdata h2 {
+    text-transform: uppercase;
+    font-family: arial black;
+    font-size: 16px;
+    color: #9ED04B;
+}
+.fdata h3 {
+    font-family: arial;
+    width: 264px;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #28406C;
+}
+
+.lData h2 {
+    font-family: arial black;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #9ED04B;
+}
+
+
+
+.lData h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: arial black;
+    color: #28406c;
+}
+
+
+
+.navMenu ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+    margin-right: 92px;
+}
+
+
+
+.navMenu ul li {
+    padding: 27px 26px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    transition: .1s;
+}
+
+.navMenu {
+    position: relative;
+}
+
+.Sicon {
+    position: relative;
+    float: right;
+    top: -52px;
+    right: 71px;
+    top: -62px;
+}
+
+.img-bar {
+    background: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    position: relative;
+}
+
+.half-bar {position: absolute;width: 418px;height: 100%;background: #28406C;left: 130px;}
+
+.head-text {
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.head-text h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: white;
+}
+
+.line-bar {
+    position: relative;
+}
+
+.line-bar hr {
+    position: absolute;
+    width: 251px;
+    margin-left: 40px;
+    margin-top: 35px;
+    height: 10px;
+    background: #95C258;
+    border: none;
+}
+.pera-text {
+    position: relative;
+}
+
+.pera-text p {
+    position: absolute;
+    padding: 40px;
+    margin-top: 40px;
+    color: white;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.pera-text a {
+    position: absolute;
+    top: 237px;
+    left: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    background: #95C258;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.man-bar {
+    position: relative;
+    height: 100%;
+    float: right;
+}
+
+.man-bar img {
+    position: absolute;
+    height: 100%;
+    right: 250px;
+}
+
+.n-con {
+    display: flex;
+    position: relative;
+}
+
+.full-div {padding: 54px;width: 394px;margin: auto;}
+
+.f-box .img-box {
+    position: absolute;
+}
+
+.title-box {
+    width: 256px;
+    margin-left: 97px;
+}
+
+.img-box i {
+    position: absolute;
+   border: 2px solid #28406c;
+    padding: 21px;
+    border-radius: 100%;
+    font-size: 27px;
+    transition: .2s;
+}
+
+.img-box i:hover {
+    background: #28406c;
+    color: white;
+}
+
+.title-box h3 {
+    font-family: sans-serif;
+    color: #28406c;
+}
+
+.title-box p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.foot-menu {width: 297px;margin: auto;position: relative;}
+
+.t-up {
+    position: absolute;
+    margin-top: -14px;
+    margin-left: 6px;
+    width: 400px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.t-in {
+    position: absolute;
+    top: -19px;
+    padding: 30px;
+    width: 400px;
+}
+
+.t-in h3 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #28406c;
+}
+
+.t-in hr {
+    width: 75px;
+    margin: auto;
+    margin-right: 153px;
+    height: 3px;
+    background: #9ED04B;
+    border: none;
+}
+
+
+
+
+
+
+.navMenu ul li span:after {
+    position: absolute;
+    content: "";
+    background: teal;
+    height: 2px;
+    width: 46px;
+    bottom: 27px;
+    left: 263px;
+     opacity: 0; 
+} 
+
+
+.Sicon input {
+    padding: 8px;
+    border: none;
+    background: #f0f0f0;
+    position: relative;
+}
+
+.Sicon i {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    z-index: 2;
+    top: 3px;
+    padding: 4px;
+    color: gray;
+}
+.Sicon input::placeholder {
+    padding: 21px;
+}
+
+.navMenu ul li:hover {
+   background: #28406c;
+    color: white;
+    border-radius:5px;
+}
+
+.lbox b img {
+    position: absolute;
+    height: 15px;
+    left: -31px;
+    top: 0;
+}
